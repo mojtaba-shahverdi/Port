@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.59b72589.css",
-    "main.js": "/static/js/main.7abde634.js",
-    "static/media/Sass.png": "/static/media/Sass.9537ac2f37eee70a0ca5.png",
-    "static/media/HtmlCssJS.png": "/static/media/HtmlCssJS.caf6f207be00ad6684ed.png",
-    "static/media/BootStrap.png": "/static/media/BootStrap.c8bb8224feac23daa7b7.png",
-    "static/media/React.png": "/static/media/React.05e48353d6aac031c4e0.png",
-    "static/media/ToBeContinued.png": "/static/media/ToBeContinued.62efd395367d368328e7.png",
-    "index.html": "/index.html",
-    "main.59b72589.css.map": "/static/css/main.59b72589.css.map",
-    "main.7abde634.js.map": "/static/js/main.7abde634.js.map"
+    "main.css": "/Personal-Page-ReactJS/static/css/main.59b72589.css",
+    "main.js": "/Personal-Page-ReactJS/static/js/main.5b14f11a.js",
+    "static/media/Sass.png": "/Personal-Page-ReactJS/static/media/Sass.9537ac2f37eee70a0ca5.png",
+    "static/media/HtmlCssJS.png": "/Personal-Page-ReactJS/static/media/HtmlCssJS.caf6f207be00ad6684ed.png",
+    "static/media/BootStrap.png": "/Personal-Page-ReactJS/static/media/BootStrap.c8bb8224feac23daa7b7.png",
+    "static/media/React.png": "/Personal-Page-ReactJS/static/media/React.05e48353d6aac031c4e0.png",
+    "static/media/ToBeContinued.png": "/Personal-Page-ReactJS/static/media/ToBeContinued.62efd395367d368328e7.png",
+    "index.html": "/Personal-Page-ReactJS/index.html",
+    "main.59b72589.css.map": "/Personal-Page-ReactJS/static/css/main.59b72589.css.map",
+    "main.5b14f11a.js.map": "/Personal-Page-ReactJS/static/js/main.5b14f11a.js.map"
   },
   "entrypoints": [
     "static/css/main.59b72589.css",
-    "static/js/main.7abde634.js"
+    "static/js/main.5b14f11a.js"
   ]
 }
