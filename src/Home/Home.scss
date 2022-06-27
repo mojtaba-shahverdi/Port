@@ -1,0 +1,26 @@
+.Home {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    background: hsla(73, 76%, 17%, 0.792);
+    border-radius: 5px;
+    .left {
+        width: 45%;
+        text-align: left;
+        font-family:  cursive;
+        p {
+            padding-left: 10px;
+            font-family: 'Square Peg';
+            font-size: 35px;
+        }
+    }
+    .right {
+        img {
+            width: 200px;
+            padding: 50px;
+        }
+    }
+    .dots{
+        color: #606c38;
+    }
+}

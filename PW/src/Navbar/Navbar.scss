@@ -1,0 +1,50 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-bottom: 1px solid #283618;
+  .Logo {
+    margin-top: 0;
+      span {
+          font-size: 48px;
+          color: #283618;
+          position: relative;
+          top: 8px;
+      }
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    li {
+      button {
+        color: #fefae0;
+        padding: 8px;
+        background: #283618;
+        margin-right: 30px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        &:hover {
+          box-shadow: 0 0 10px 5px #283618;
+        }
+        &:active {
+          box-shadow: 0 0 10px 1px #283618;
+        }
+      }
+      &:nth-child(2) {
+        button {
+          color: #606c38;
+          background: #fefae0 !important;
+          &:hover {
+            box-shadow: 0 0 5px 5px #fefae0;
+          }
+          &:active {
+            box-shadow: 0 0 10px 1px #fefae0;
+          }
+        }
+      }
+    }
+  }
+}

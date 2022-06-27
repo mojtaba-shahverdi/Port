@@ -1,0 +1,97 @@
+.Contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70%;
+  font-family: cursive;
+}
+
+.Contact .Form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.Contact .Form input, .Contact .Form textarea {
+  padding: 10px;
+  border-radius: 10px;
+  background: #283618;
+  border: none;
+  margin: 10px;
+  color: #fefae0;
+  font-size: 18px;
+  width: 100%;
+}
+
+.Contact .Form input:focus, .Contact .Form textarea:focus {
+  outline: none;
+}
+
+.Contact .Form textarea {
+  height: 70px;
+  overflow: hidden;
+  resize: none;
+}
+
+.Contact .Form .submitted {
+  color: #CCCC66;
+  text-align: center;
+}
+
+.Contact .Form .errorSpan {
+  color: #ED2F32;
+}
+
+.Contact .Form input::placeholder, .Contact .Form textarea::placeholder {
+  color: #fefae0;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.Contact .Form .formControl:nth-last-child(1) {
+  text-align: left;
+}
+
+.Contact .Form .btnSubmit {
+  width: 50%;
+  cursor: pointer;
+}
+
+.Contact .Form .btnSubmit:hover {
+  box-shadow: 0 0 10px #283618;
+}
+
+.Contact .Form .btnSubmit:active {
+  border-radius: 5px;
+  box-shadow: 0 0 15px #283618;
+}
+
+.Contact .Form h3 {
+  text-align: left;
+}
+
+.Contact .Info {
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact .Info h1 {
+  align-self: flex-start;
+}
+
+.Contact .Info h1:nth-last-child(2) {
+  margin-top: 50px;
+}
+
+.Contact .Info i {
+  font-size: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.Contact .Info i:hover {
+  transition: 0.5s;
+  color: rgba(255, 255, 255, 0.667);
+}

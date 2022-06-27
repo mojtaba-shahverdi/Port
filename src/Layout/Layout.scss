@@ -1,0 +1,11 @@
+.Layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .LayoutIn {
+        background: #4a5819;
+        width: 90%;
+        height: 80%;
+    }
+}
